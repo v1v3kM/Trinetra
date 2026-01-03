@@ -1,0 +1,107 @@
+2026-01-03T06:28:06.419Z INFO SharedStateManager initialized
+2026-01-03T06:28:06.420Z INFO Is remote: false
+2026-01-03T06:28:06.421Z INFO Starting Local. Installation path: c:\Users\diksh\OneDrive\Desktop\trinetra
+2026-01-03T06:28:06.422Z INFO [MainProvider] Creating new MainProvider instance...
+2026-01-03T06:28:06.423Z INFO Installation path exists: c:\Users\diksh\OneDrive\Desktop\trinetra
+2026-01-03T06:28:06.424Z INFO Initializing database with URL: file:c:\Users\diksh\OneDrive\Desktop\trinetra\pythagora-core\data\database\pythagora.db
+2026-01-03T06:28:06.428Z INFO Database file exists, skipping prisma generate/push for faster startup
+2026-01-03T06:28:06.428Z INFO Database initialized successfully
+2026-01-03T06:28:06.429Z INFO [Migration] Checking for database migration...
+2026-01-03T06:28:06.619Z INFO [Migration] No migration needed
+2026-01-03T06:28:07.008Z INFO Starting right sidebar creation...
+2026-01-03T06:28:07.009Z INFO Initializing MainProvider...
+2026-01-03T06:28:07.010Z INFO Updating user profile...
+2026-01-03T06:28:07.011Z INFO No access token found when trying to fetch user profile
+2026-01-03T06:28:07.012Z INFO Creating right panel...
+2026-01-03T06:28:07.014Z INFO Creating right panel...
+2026-01-03T06:28:07.014Z INFO Closing all existing tabs...
+2026-01-03T06:28:07.624Z INFO Right panel webview created
+2026-01-03T06:28:07.628Z INFO Right panel HTML set successfully
+2026-01-03T06:28:07.629Z INFO Right panel setup completed
+2026-01-03T06:28:07.629Z INFO Setting up right panel dependencies...
+2026-01-03T06:28:07.649Z INFO Right panel dependencies setup complete, waiting for ready signal...
+2026-01-03T06:28:09.950Z INFO MainProvider handleMessage {"command":"rightPanelReady","data":{},"source":"right"}
+2026-01-03T06:28:09.951Z INFO Routing rightPanelReady through new unified router from right
+2026-01-03T06:28:09.952Z INFO [Message Router] Routing rightPanelReady through unified router
+2026-01-03T06:28:09.989Z INFO MainProvider handleMessage {"command":"getDeployments","data":"","route":"forwardToRight","source":"right"}
+2026-01-03T06:28:09.990Z INFO Routing getDeployments through new unified router from right
+2026-01-03T06:28:09.991Z INFO [Message Router] Routing getDeployments through unified router
+2026-01-03T06:28:09.996Z ERROR Error getting deployments:
+Error: Missing access token
+Stack: Error: Missing access token
+    at getDeployments (c:\Users\diksh\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\utils\deployments.js:254:15)
+    at getAndSendDeployments (c:\Users\diksh\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\routes\deployment.js:292:64)
+    at Object.handleGetDeployments [as getDeployments] (c:\Users\diksh\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\routes\deployment.js:67:15)
+    at handleMessage (c:\Users\diksh\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\routes\messageRouter.js:113:40)
+    at MainProvider.handleUnifiedMessage (c:\Users\diksh\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\providers\MainProvider.js:224:49)
+    at MainProvider.handleMessage (c:\Users\diksh\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\providers\MainProvider.js:717:24)
+    at Object.handleRightSidebarMessage (c:\Users\diksh\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\providers\MainProvider.js:67:56)
+    at od.value (c:\Users\diksh\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\managers\WebviewManager.js:209:46)
+    at $.C (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+    at $.D (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2443)
+    at $.fire (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2660)
+    at UV.$onMessage (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:92663)
+    at U4.S (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120964)
+    at U4.Q (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120744)
+    at U4.M (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:119833)
+    at U4.L (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:119071)
+    at od.value (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:117735)
+    at $.C (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+    at $.fire (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+    at Ao.fire (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+    at od.value (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:8616)
+    at $.C (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+    at $.fire (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+    at Ao.fire (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+    at MessagePortMain.<anonymous> (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6908)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+Extra context: {
+  "message": "Missing access token"
+}
+2026-01-03T06:28:10.009Z INFO MainProvider handleMessage {"command":"rightBarRendered","data":"","source":"right"}
+2026-01-03T06:28:10.009Z INFO Right panel setup completed successfully
+2026-01-03T06:28:10.010Z INFO Right panel created via MainProvider
+2026-01-03T06:28:10.011Z INFO Storing initial prompt...
+2026-01-03T06:28:10.011Z INFO Tracing first panel open...
+2026-01-03T06:28:10.012Z INFO Right sidebar setup completed successfully
+2026-01-03T06:28:10.013Z INFO MainProvider handleMessage {"command":"updateUserProfile","data":"","source":"right"}
+2026-01-03T06:28:10.014Z INFO Routing updateUserProfile through new unified router from right
+2026-01-03T06:28:10.014Z INFO [Message Router] Routing updateUserProfile through unified router
+2026-01-03T06:28:10.015Z INFO No access token found when trying to fetch user profile
+2026-01-03T06:28:12.661Z INFO Right panel disposed, triggering cleanup...
+2026-01-03T06:28:12.662Z INFO Right panel disposed, cleaning up...
+2026-01-03T06:28:13.221Z INFO MainProvider handleMessage {"command":"coreExited","route":"broadcast"}
+2026-01-03T06:28:13.221Z INFO Routing coreExited through new unified router from unknown
+2026-01-03T06:28:13.222Z INFO [Message Router] Routing coreExited through unified router
+2026-01-03T06:28:13.222Z INFO Closing entire Pythagora extension...
+2026-01-03T06:28:13.233Z INFO Pythagora extension closed
+2026-01-03T06:28:21.619Z INFO Closing entire Pythagora extension...
+2026-01-03T06:28:21.624Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+    at new MR (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:116391)
+    at U4.U (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121001)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:118495)
+    at iy.g (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:41101)
+    at iy.executeCommand (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:40605)
+    at Object.executeCommand (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:201:105071)
+    at closeEntirePythagoraExtension (c:\Users\diksh\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\extension.js:390:31)
+    at Object.deactivate (c:\Users\diksh\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\extension.js:295:15)
+    at SZ.eb (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11797)
+    at file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9947
+    at Array.map (<anonymous>)
+    at SZ.$ (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9935)
+    at SZ.terminate (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10178)
+    at H3.terminate (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+    at Ss (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+    at MessagePortMain.<anonymous> (file:///c:/Users/diksh/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6948)
+    at MessagePortMain.emit (node:events:519:28)
+    at MessagePortMain.emit (node:domain:489:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+    at Object.topLevelDomainCallback (node:domain:161:15)
+    at Object.callbackTrampoline (node:internal/async_hooks:128:24)
+Extra context: {
+  "message": "Canceled"
+}
